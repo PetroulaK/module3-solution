@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">     
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: #555;
+  height: 1300px;
+  color: white;
+  border-radius: 10px;
+}
+
+h1{
+  position: justified;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+
+<div class="mobile-container">
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="#home" class="active">Food, LLC</a>
+  <div id="myLinks">
+     <id style="text-align:center;">
+    <a href="#news">Chicken</a>
+    <a href="#contact">Beef</a>
+    <a href="#about">Sushi</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div style="padding-left:">
+  
+  <h1 style="text-align:center;">Our Menu</h1>
+</div>
+  <div style="padding-left:66px">
+  <div style="padding-right:66px">
+   <h3 style="text-align:center;">Chicken</h3>
+   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit... Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...Lorem ipsum dolor sit amet, consectetur adipisicing elit... Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...Lorem ipsum dolor sit amet, consectetur adipisicing elit... Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...Lorem ipsum dolor sit amet, consectetur adipisicing elit... Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...Lorem ipsum dolor sit amet, consectetur adipisicing elit... Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...Lorem ipsum dolor sit amet, consectetur adipisicing elit... Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+</div>
+  <div style="padding-left:px">
+  <div style="padding-right:66px">
+    <h3 style="text-align:center;">Beef</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit... Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...Lorem ipsum dolor sit amet, consectetur adipisicing elit... Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...Lorem ipsum dolor sit amet, consectetur adipisicing elit... Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...Lorem ipsum dolor sit amet, consectetur adipisicing elit... Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...Lorem ipsum dolor sit amet, consectetur adipisicing elit... Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...Lorem ipsum dolor sit amet, consectetur adipisicing elit... Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+</div>
+  <div style="padding-left:px">
+  <div style="padding-right:66px">
+   <h3 style="text-align:center;">Sushi</h3>
+   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit... Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...Lorem ipsum dolor sit amet, consectetur adipisicing elit... Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...Lorem ipsum dolor sit amet, consectetur adipisicing elit... Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...Lorem ipsum dolor sit amet, consectetur adipisicing elit... Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...Lorem ipsum dolor sit amet, consectetur adipisicing elit... Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...Lorem ipsum dolor sit amet, consectetur adipisicing elit... Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+</div>
+
+<!-- End smartphone / tablet look -->
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+</body>
+</html>
